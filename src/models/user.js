@@ -126,18 +126,3 @@ userSchema.pre('remove', async function (next){
 const User = mongoose.model('User' , userSchema)
 
 module.exports = User
-
-
-
-// Creating new data with the model
-// const me = new User({
-//     name: '  Kanan  ',
-//     email: 'HabIblikanan@gmail.Com',
-//     password: 'ecmascript'
-// })
-// // Adding data to the database
-// me.save().then(()=> {
-//     console.log(me)
-// }).catch( error => {
-//     console.log(error);
-// })

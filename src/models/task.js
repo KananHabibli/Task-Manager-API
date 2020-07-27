@@ -21,11 +21,3 @@ owner: {
 const Task = mongoose.model('Task' , taskSchema)
 
 module.exports = Task
-
-// const task = new Task({description: 'Take a walk', completed: true})
-
-// task.save().then(() => {
-//     console.log(task)
-// }).catch(error => {
-//     console.log(error)
-// })
